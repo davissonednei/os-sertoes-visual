@@ -1,0 +1,79 @@
+{
+  "parte": "A Terra",
+  "capitulo": "I",
+  "secao": "Preliminares",
+  "tituloEditorial": "Antes de Canudos, é preciso aprender a ver o sertão.",
+  "blocos": [
+    {
+      "id": "01",
+      "titulo": "O Brasil se abre até a Bahia",
+      "visual": [
+        "mapa de localização",
+        "diagrama autoral de relevo"
+      ]
+    },
+    {
+      "id": "02",
+      "titulo": "A ossatura antiga da terra",
+      "visual": [
+        "glossário didático",
+        "comparação visual gnaisse/granito"
+      ]
+    },
+    {
+      "id": "03",
+      "titulo": "Minas: pedra, ouro e altitude",
+      "visual": [
+        "fotografia real",
+        "vocabulário"
+      ]
+    },
+    {
+      "id": "04",
+      "titulo": "A água escolhe dois caminhos",
+      "visual": [
+        "diagrama de drenagem",
+        "fotografia de caverna"
+      ]
+    },
+    {
+      "id": "05",
+      "titulo": "Grão Mogol",
+      "visual": [
+        "fotografia real"
+      ]
+    },
+    {
+      "id": "06",
+      "titulo": "Como um planalto vira cânion",
+      "visual": [
+        "diagrama de erosão",
+        "vocabulário"
+      ]
+    },
+    {
+      "id": "07",
+      "titulo": "Bom Jesus da Lapa",
+      "visual": [
+        "fotografia histórica",
+        "nota técnica"
+      ]
+    },
+    {
+      "id": "08",
+      "titulo": "A Bahia como prolongamento de Minas",
+      "visual": [
+        "diagrama conceitual",
+        "fotografia real"
+      ]
+    },
+    {
+      "id": "09",
+      "titulo": "O terreno se fragmenta",
+      "visual": [
+        "esquema regional",
+        "ponte narrativa"
+      ]
+    }
+  ]
+}
