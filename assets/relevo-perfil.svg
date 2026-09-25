@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
-<title id="t">Mudança do relevo até a Bahia</title>
-<desc id="d">Esquema didático em três faixas: Sul, Rio e Espírito Santo, Bahia.</desc>
+<title id="t">Do Sul à Bahia</title>
+<desc id="d">Esquema visual da mudança do relevo descrita por Euclides.</desc>
 <defs>
   <pattern id="paper" width="22" height="22" patternUnits="userSpaceOnUse">
     <rect width="22" height="22" fill="#ebe3d4"/>
@@ -11,31 +11,30 @@
   </pattern>
 </defs>
 <rect width="1200" height="760" fill="url(#paper)"/>
-<text x="70" y="72" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">COMO EUCLIDES FAZ O RELEVO MUDAR</text>
-<text x="70" y="107" font-family="Georgia" font-size="18" fill="#655d52">esquema de leitura — não é um perfil altimétrico</text>
+<text x="70" y="72" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">DO SUL À BAHIA</text>
 
 <g transform="translate(70,165)">
   <text x="0" y="0" font-family="Arial" font-size="18" font-weight="800" letter-spacing="3">SUL</text>
   <path d="M0 175L70 105L130 140L205 50L275 125L350 72L420 160L470 175" fill="url(#hatch)" stroke="#17130f" stroke-width="5"/>
   <line x1="0" y1="190" x2="470" y2="190" stroke="#17130f" stroke-width="2"/>
-  <text x="0" y="225" font-family="Arial" font-size="15" fill="#655d52">escarpas altas · montanhas dominantes</text>
+  <text x="0" y="225" font-family="Arial" font-size="15" fill="#655d52">serras altas e contínuas</text>
 </g>
 
 <g transform="translate(650,165)">
   <text x="0" y="0" font-family="Arial" font-size="18" font-weight="800" letter-spacing="3">RIO / ESPÍRITO SANTO</text>
   <path d="M0 170L45 135L82 150L125 94L162 134L206 102L248 148L290 118L336 160L380 138L430 175L470 175" fill="url(#hatch)" stroke="#17130f" stroke-width="5"/>
   <line x1="0" y1="190" x2="470" y2="190" stroke="#17130f" stroke-width="2"/>
-  <text x="0" y="225" font-family="Arial" font-size="15" fill="#655d52">litoral revolto · serras quebradas · baías</text>
+  <text x="0" y="225" font-family="Arial" font-size="15" fill="#655d52">o relevo se quebra e se recorta</text>
 </g>
 
 <g transform="translate(70,485)">
-  <rect x="-20" y="-44" width="1080" height="205" rx="2" fill="#963e27" opacity=".055"/>
+  <rect x="-20" y="-44" width="1080" height="205" fill="#963e27" opacity=".055"/>
   <text x="0" y="0" font-family="Arial" font-size="18" font-weight="800" letter-spacing="3" fill="#963e27">BAHIA</text>
   <path d="M0 118L65 82L130 102L205 70L280 97L360 78L442 105L530 93L620 112L710 98L800 114L900 108L1000 118" fill="url(#hatch)" stroke="#963e27" stroke-width="5"/>
   <line x1="0" y1="135" x2="1000" y2="135" stroke="#963e27" stroke-width="2"/>
-  <text x="0" y="172" font-family="Arial" font-size="15" fill="#655d52">o horizonte se abre · o olhar entra para o oeste · chapadas</text>
+  <text x="0" y="172" font-family="Arial" font-size="15" fill="#655d52">as formas se suavizam e o horizonte se abre</text>
   <path d="M795 20H980" stroke="#963e27" stroke-width="3"/>
   <path d="M980 20l-18-10v20z" fill="#963e27"/>
-  <text x="795" y="8" font-family="Arial" font-size="14" letter-spacing="2" fill="#963e27">INTERIOR</text>
+  <text x="795" y="8" font-family="Arial" font-size="14" letter-spacing="2" fill="#963e27">PARA O INTERIOR</text>
 </g>
 </svg>
