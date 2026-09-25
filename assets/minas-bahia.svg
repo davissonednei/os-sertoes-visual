@@ -1,20 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 700" role="img" aria-labelledby="t d">
-<title id="t">Continuidade geológica entre Minas e Bahia</title>
-<desc id="d">Diagrama conceitual ligando Serra do Espinhaço e região diamantina da Bahia.</desc>
-<rect width="860" height="700" fill="#ebe3d4"/>
-<text x="55" y="66" font-family="Arial" font-size="20" font-weight="800" letter-spacing="3" fill="#963e27">MINAS → BAHIA</text>
-<path d="M175 525C210 452 249 398 305 355C370 305 426 266 478 212C523 165 568 121 655 95" fill="none" stroke="#17130f" stroke-width="12" stroke-linecap="round"/>
-<path d="M175 525C210 452 249 398 305 355C370 305 426 266 478 212C523 165 568 121 655 95" fill="none" stroke="#963e27" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
-<circle cx="175" cy="525" r="10" fill="#963e27"/>
-<circle cx="655" cy="95" r="10" fill="#963e27"/>
-<text x="90" y="575" font-family="Arial" font-size="18" font-weight="800">MINAS GERAIS</text>
-<text x="515" y="65" font-family="Arial" font-size="18" font-weight="800">BAHIA</text>
+<title id="t">Minas — Bahia</title>
+<desc id="d">Mapa editorial ligando Minas Gerais à Bahia, com referências ao Espinhaço e à região diamantina.</desc>
+<defs>
+  <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
+    <rect width="18" height="18" fill="#ebe3d4"/>
+    <path d="M0 5L18 2M0 14L18 11" stroke="#17130f" stroke-opacity=".035"/>
+  </pattern>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#17130f" stroke-width="1.2" opacity=".17"/>
+  </pattern>
+</defs>
 
-<g fill="none" stroke="#17130f" stroke-width="4">
-  <path d="M90 475L145 410L205 455L255 380L312 425"/>
-  <path d="M510 180L555 130L600 170L648 118L700 165"/>
+<rect width="860" height="700" fill="url(#paper)"/>
+<text x="55" y="66" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="4" fill="#963e27">MINAS — BAHIA</text>
+
+<!-- eixo visual -->
+<path d="M176 542 C220 450 270 385 335 332 C406 273 466 225 520 170 C565 125 610 101 670 82"
+      fill="none" stroke="#17130f" stroke-width="12" stroke-linecap="round"/>
+<path d="M176 542 C220 450 270 385 335 332 C406 273 466 225 520 170 C565 125 610 101 670 82"
+      fill="none" stroke="#963e27" stroke-width="4" stroke-dasharray="2 15" stroke-linecap="round"/>
+
+<!-- relevo de apoio -->
+<g fill="url(#hatch)" stroke="#17130f" stroke-width="4" stroke-linejoin="round">
+  <path d="M82 470 L136 405 L191 452 L244 388 L301 446 Z"/>
+  <path d="M505 178 L550 128 L595 171 L640 121 L692 174 L735 139 L780 185 Z"/>
 </g>
-<text x="95" y="628" font-family="Arial" font-size="14" fill="#655d52">Espinhaço · quartzitos · região do ouro</text>
-<text x="465" y="220" font-family="Arial" font-size="14" fill="#655d52">região diamantina · Sincorá · chapadas</text>
-<text x="55" y="670" font-family="Georgia" font-size="18" fill="#655d52">Esquema conceitual da continuidade descrita por Euclides — não mapa geológico.</text>
+
+<!-- pontos -->
+<circle cx="176" cy="542" r="10" fill="#963e27"/>
+<circle cx="670" cy="82" r="10" fill="#963e27"/>
+
+<!-- rótulos principais -->
+<text x="84" y="596" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" fill="#17130f">MINAS GERAIS</text>
+<text x="620" y="45" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" fill="#17130f">BAHIA</text>
+
+<!-- rótulos de apoio, afastados da linha -->
+<text x="84" y="635" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#655d52">Espinhaço · quartzitos · ouro</text>
+<text x="520" y="225" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#655d52">Sincorá · região diamantina · chapadas</text>
 </svg>
