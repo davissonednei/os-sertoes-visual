@@ -14,25 +14,22 @@
 <rect width="1300" height="780" fill="url(#paper)"/>
 <text x="72" y="72" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="4" fill="#963e27">UM MAPA PARA ENTRAR NO SERTÃO</text>
 
-<!-- São Francisco, como referência geográfica -->
 <path d="M135 135 C225 175 290 230 325 308 C360 386 418 446 515 485 C625 529 760 541 900 510 C1015 484 1115 440 1215 380"
       fill="none" stroke="#31483c" stroke-width="15" stroke-linecap="round"/>
-<text x="145" y="188" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#31483c">SÃO FRANCISCO</text>
+<text x="96" y="215" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#31483c">SÃO FRANCISCO</text>
 
-<!-- serras em linguagem próxima ao mapa Minas–Bahia -->
 <g fill="url(#hatch)" stroke="#17130f" stroke-width="4" stroke-linejoin="round">
-  <path d="M285 300 L330 250 L374 296 L418 246 L466 301 L510 262 L555 306 Z"/>
-  <path d="M500 470 L550 414 L600 466 L648 408 L700 464 L747 418 L795 470 Z"/>
+  <path d="M323 300 L368 250 L412 296 L456 246 L504 301 L548 262 L593 306 Z"/>
+  <path d="M500 546 L550 490 L600 542 L648 484 L700 540 L747 494 L795 546 Z"/>
   <path d="M760 316 L804 267 L848 313 L891 265 L940 318 L983 280 L1028 323 Z"/>
 </g>
 
-<!-- pontos e nomes: todos afastados das serras -->
 <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#17130f">
   <circle cx="395" cy="350" r="9" fill="#963e27"/>
   <text x="420" y="357">ITIÚBA</text>
 
-  <circle cx="600" cy="525" r="9" fill="#963e27"/>
-  <text x="625" y="532">MONTE SANTO</text>
+  <circle cx="600" cy="638" r="9" fill="#963e27"/>
+  <text x="620" y="645">MONTE SANTO</text>
 
   <circle cx="850" cy="385" r="9" fill="#963e27"/>
   <text x="875" y="392">JEREMOABO</text>
@@ -41,9 +38,8 @@
   <text x="1117" y="334">PAULO AFONSO</text>
 </g>
 
-<!-- caminho editorial discreto, no mesmo espírito do mapa Minas–Bahia -->
-<path d="M395 350 C470 395 520 470 600 525 C690 475 760 420 850 385 C940 360 1015 338 1092 327"
+<path d="M395 350 C470 400 520 520 600 638 C680 560 770 430 850 385 C940 360 1015 338 1092 327"
       fill="none" stroke="#17130f" stroke-width="8" stroke-linecap="round" opacity=".90"/>
-<path d="M395 350 C470 395 520 470 600 525 C690 475 760 420 850 385 C940 360 1015 338 1092 327"
+<path d="M395 350 C470 400 520 520 600 638 C680 560 770 430 850 385 C940 360 1015 338 1092 327"
       fill="none" stroke="#963e27" stroke-width="3" stroke-dasharray="2 13" stroke-linecap="round"/>
 </svg>
