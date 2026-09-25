@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 720" role="img" aria-labelledby="t d">
+<title id="t">Formação de vales e cânions por erosão</title>
+<desc id="d">Quatro quadros mostram planalto, drenagem, aprofundamento e formação de vales e escarpas.</desc>
+<rect width="1400" height="720" fill="#ebe3d4"/>
+<text x="70" y="70" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">DE PLANALTO A CÂNION</text>
+
+<g font-family="Arial" font-size="15" fill="#655d52">
+<text x="80" y="130">1 · SUPERFÍCIE ELEVADA</text>
+<text x="405" y="130">2 · CHUVA E DRENAGEM</text>
+<text x="750" y="130">3 · SULCOS SE APROFUNDAM</text>
+<text x="1080" y="130">4 · VALES E ESCARPAS</text>
+</g>
+
+<g transform="translate(70,170)">
+  <rect width="260" height="360" fill="#e1d5c2" stroke="#17130f" stroke-width="2"/>
+  <path d="M15 130H245V330H15Z" fill="#b4a38a"/>
+  <path d="M15 130H245" stroke="#17130f" stroke-width="6"/>
+  <path d="M15 190H245M15 245H245" stroke="#7e6f5e" stroke-width="2"/>
+</g>
+
+<g transform="translate(400,170)">
+  <rect width="260" height="360" fill="#e1d5c2" stroke="#17130f" stroke-width="2"/>
+  <path d="M15 130H245V330H15Z" fill="#b4a38a"/>
+  <path d="M15 130H245" stroke="#17130f" stroke-width="6"/>
+  <path d="M130 130C128 158 119 178 102 205" fill="none" stroke="#31483c" stroke-width="6"/>
+  <path d="M90 58l-13 32M130 50l-8 35M170 60l-13 31M210 47l-10 36" stroke="#31483c" stroke-width="4"/>
+</g>
+
+<g transform="translate(730,170)">
+  <rect width="260" height="360" fill="#e1d5c2" stroke="#17130f" stroke-width="2"/>
+  <path d="M15 130H90L118 175L140 238L167 174L195 130H245V330H15Z" fill="#b4a38a"/>
+  <path d="M15 130H90L118 175L140 238L167 174L195 130H245" fill="none" stroke="#17130f" stroke-width="6"/>
+  <path d="M140 238C140 267 139 293 138 330" stroke="#31483c" stroke-width="5"/>
+</g>
+
+<g transform="translate(1060,170)">
+  <rect width="260" height="360" fill="#e1d5c2" stroke="#17130f" stroke-width="2"/>
+  <path d="M15 130H67L88 190L110 255L136 306L158 252L183 185L205 130H245V330H15Z" fill="#b4a38a"/>
+  <path d="M15 130H67L88 190L110 255L136 306L158 252L183 185L205 130H245" fill="none" stroke="#17130f" stroke-width="6"/>
+  <path d="M136 306V330" stroke="#31483c" stroke-width="5"/>
+</g>
+
+<text x="70" y="610" font-family="Georgia" font-size="23" fill="#17130f">Séculos de enxurradas não “cortam” tudo de uma vez: aprofundam caminhos de água pouco a pouco.</text>
+</svg>
