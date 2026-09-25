@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="t d">
+<title id="t">Drenagem, São Francisco e cavernas calcárias</title>
+<desc id="d">Esquema com divisor de águas, rios para leste e oeste e corte de terreno calcário.</desc>
+<rect width="1400" height="820" fill="#ebe3d4"/>
+<text x="70" y="72" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">A ÁGUA ESCOLHE DOIS CAMINHOS</text>
+
+<path d="M90 395L220 295L345 345L470 225L600 330L725 255L840 350L960 310L1090 392L1310 392" fill="none" stroke="#17130f" stroke-width="7" stroke-linejoin="round"/>
+<path d="M470 230C420 305 350 375 245 450C180 497 140 540 100 590" fill="none" stroke="#31483c" stroke-width="7"/>
+<path d="M600 330C665 390 740 445 850 493C943 535 1035 566 1160 590" fill="none" stroke="#31483c" stroke-width="7"/>
+<path d="M725 260C805 315 890 340 1005 350C1110 360 1210 338 1300 300" fill="none" stroke="#31483c" stroke-width="7"/>
+
+<text x="80" y="630" font-family="Arial" font-size="18" font-weight="800" fill="#31483c">PARA O SÃO FRANCISCO</text>
+<text x="1050" y="635" font-family="Arial" font-size="18" font-weight="800" fill="#31483c">PARA O LESTE</text>
+<text x="520" y="192" font-family="Arial" font-size="15" letter-spacing="2">DIVISOR DE ÁGUAS</text>
+
+<g transform="translate(300,650)">
+  <path d="M0 0H800V110H0Z" fill="#d6c9b4" stroke="#17130f" stroke-width="2"/>
+  <path d="M80 0C120 30 120 65 165 75C230 90 282 22 342 48C395 70 420 105 490 85C555 66 595 12 650 35C700 55 725 88 800 94V110H0V55C25 42 52 24 80 0Z" fill="#8e806d" opacity=".55"/>
+  <path d="M142 18C173 31 184 44 185 67M342 8C359 27 367 42 367 63M650 8C646 25 646 41 657 58" fill="none" stroke="#17130f" stroke-width="3"/>
+  <ellipse cx="355" cy="78" rx="85" ry="27" fill="#17130f"/>
+  <text x="325" y="84" font-family="Arial" font-size="13" fill="#ebe3d4">CAVERNA</text>
+  <path d="M170 67C222 69 253 79 273 83" fill="none" stroke="#31483c" stroke-width="5"/>
+  <path d="M438 82C510 75 568 68 651 59" fill="none" stroke="#31483c" stroke-width="5"/>
+  <text x="15" y="-14" font-family="Arial" font-size="14" font-weight="800">TERRENO CALCÁRIO</text>
+  <text x="672" y="24" font-family="Arial" font-size="13">sumidouros</text>
+</g>
+</svg>
