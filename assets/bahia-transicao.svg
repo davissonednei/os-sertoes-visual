@@ -1,28 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 760" role="img" aria-labelledby="t d">
-<title id="t">Transição para a entrada do sertão</title>
-<desc id="d">Esquema regional ligando São Francisco, Itiúba, Monte Santo, Jeremoabo e Paulo Afonso.</desc>
-<rect width="1300" height="760" fill="#ebe3d4"/>
-<text x="70" y="70" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">O CAMPO DE VISÃO SE ESTREITA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 780" role="img" aria-labelledby="t d">
+<title id="t">Mapa para entrar no sertão</title>
+<desc id="d">Mapa editorial em linguagem de xilogravura com São Francisco, Itiúba, Monte Santo, Jeremoabo e Paulo Afonso.</desc>
+<defs>
+  <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
+    <rect width="20" height="20" fill="#ebe3d4"/>
+    <path d="M0 6L20 2M0 16L20 12" stroke="#17130f" stroke-opacity=".04"/>
+  </pattern>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#17130f" stroke-width="1.4" opacity=".23"/>
+  </pattern>
+</defs>
+<rect width="1300" height="780" fill="url(#paper)"/>
+<text x="70" y="70" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">UM MAPA PARA ENTRAR NO SERTÃO</text>
 
-<path d="M130 110C270 180 325 248 360 340C394 430 490 485 655 500C825 515 940 475 1165 360" fill="none" stroke="#31483c" stroke-width="13" stroke-linecap="round"/>
-<text x="145" y="150" font-family="Arial" font-size="17" font-weight="800" fill="#31483c">SÃO FRANCISCO</text>
+<!-- rio -->
+<path d="M112 110C210 150 282 214 316 300C352 392 420 455 535 488C670 527 811 519 934 487C1042 459 1120 415 1210 360"
+      fill="none" stroke="#31483c" stroke-width="16" stroke-linecap="round"/>
+<text x="132" y="154" font-family="Arial" font-size="17" font-weight="900" fill="#31483c">SÃO FRANCISCO</text>
 
-<g font-family="Arial" font-size="17" fill="#17130f">
-  <circle cx="420" cy="270" r="8" fill="#963e27"/><text x="438" y="276">ITIÚBA</text>
-  <circle cx="565" cy="365" r="8" fill="#963e27"/><text x="583" y="371">MONTE SANTO</text>
-  <circle cx="770" cy="335" r="8" fill="#963e27"/><text x="788" y="341">JEREMOABO</text>
-  <circle cx="1035" cy="305" r="8" fill="#963e27"/><text x="1053" y="311">PAULO AFONSO</text>
+<!-- massas montanhosas -->
+<g fill="url(#hatch)" stroke="#17130f" stroke-width="5">
+  <path d="M250 258L300 197L347 250L392 182L443 248L489 204L534 258Z"/>
+  <path d="M470 390L522 327L572 384L620 315L673 382L722 330L770 395Z"/>
+  <path d="M742 280L790 226L837 276L880 222L932 280L978 238L1024 292Z"/>
 </g>
 
-<path d="M385 225L420 180L455 222L490 174L530 220" fill="none" stroke="#17130f" stroke-width="5"/>
-<path d="M510 335L550 290L590 333L625 286L665 330" fill="none" stroke="#17130f" stroke-width="5"/>
-<path d="M735 300L770 264L805 301L840 265L875 302" fill="none" stroke="#17130f" stroke-width="5"/>
+<!-- pontos -->
+<g font-family="Arial" font-size="18" fill="#17130f">
+  <circle cx="390" cy="308" r="8" fill="#963e27"/>
+  <text x="410" y="314">ITIÚBA</text>
 
-<path d="M1010 330C1040 366 1063 402 1078 448C1092 492 1116 525 1168 553" fill="none" stroke="#31483c" stroke-width="6"/>
-<path d="M1150 535l30 20-34 8z" fill="#31483c"/>
-<text x="1020" y="505" font-family="Arial" font-size="14" letter-spacing="2" fill="#31483c">PARA LESTE</text>
+  <circle cx="565" cy="430" r="8" fill="#963e27"/>
+  <text x="585" y="436">MONTE SANTO</text>
 
-<rect x="70" y="600" width="1160" height="95" fill="#963e27" opacity=".06"/>
-<text x="95" y="638" font-family="Georgia" font-size="23" fill="#17130f">Brasil → Minas → Bahia → São Francisco → Itiúba → Monte Santo → Jeremoabo → Paulo Afonso</text>
-<text x="95" y="674" font-family="Arial" font-size="14" fill="#655d52">É assim que Preliminares vai reduzindo a escala antes de “A entrada do sertão”.</text>
+  <circle cx="825" cy="352" r="8" fill="#963e27"/>
+  <text x="845" y="358">JEREMOABO</text>
+
+  <circle cx="1090" cy="292" r="8" fill="#963e27"/>
+  <text x="1110" y="298">PAULO AFONSO</text>
+</g>
+
+<!-- pequenos riscos xilogravura -->
+<g stroke="#17130f" stroke-width="2" opacity=".22">
+  <path d="M170 560L265 530M195 592L290 559M325 600L420 570M875 565L966 535M975 600L1068 570"/>
+  <path d="M160 220L208 196M1024 454L1082 430M1070 486L1125 462"/>
+</g>
+
+<text x="70" y="700" font-family="Georgia" font-size="22" fill="#17130f">Agora os nomes deixam de ser uma lista: começam a ocupar um lugar no mapa.</text>
 </svg>
