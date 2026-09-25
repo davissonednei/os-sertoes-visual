@@ -1,24 +1,19 @@
 # Os Sertões — edição visual interativa
 
-Protótipo 2, redesenhado para uma experiência de leitura simples inspirada na lógica editorial de *Walkachusetts*: narrativa em fluxo, imagens entre os parágrafos e nenhuma sobreposição entre texto e visual.
+Projeto de leitura visual de **Os Sertões**, de Euclides da Cunha.
 
-## Princípios
+## Modelo editorial definido
 
-- texto é o eixo da experiência;
-- imagens entram no fluxo normal da página;
-- xilogravura é a linguagem visual principal;
-- JavaScript é mínimo: apenas progresso de leitura e identificação da cena atual;
-- layout responsivo em uma coluna;
-- cada bloco editorial pode ser catalogado em `/conteudo`.
+- o texto do livro é o eixo da experiência;
+- a leitura segue em fluxo simples, inspirada na lógica editorial de projetos como *Walkachusetts*;
+- nunca haverá texto sobreposto a imagem;
+- a voz de Euclides e a voz editorial do projeto serão visualmente diferentes;
+- xilogravura é parte da identidade, mas não é obrigação;
+- cada trecho recebe o recurso visual que melhor ajuda a entender o texto;
+- podemos combinar xilogravura, fotografia, mapa, documento histórico, diagrama, imagem de acervo e material autoral;
+- clareza vem antes de ornamentação;
+- o projeto será construído trecho por trecho, sem antecipar uma estrutura rígida para o livro inteiro.
 
-## Estrutura
+## Estado atual
 
-- `index.html` — piloto 001 + 009
-- `style.css` — sistema visual
-- `script.js` — progresso de leitura
-- `assets/` — xilogravuras em SVG
-- `conteudo/` — fichas dos blocos
-
-## Hospedagem
-
-O projeto é estático e pode ser publicado diretamente no GitHub Pages.
+O piloto inicial foi removido. O projeto recomeça a partir deste modelo editorial, passo a passo.
