@@ -1,49 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 760" role="img" aria-labelledby="t d">
-<title id="t">Brasil com a Bahia destacada</title>
-<desc id="d">Mapa editorial simplificado do Brasil com divisões estaduais esquemáticas e a Bahia destacada.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="t d">
+<title id="t">A Bahia no Brasil</title>
+<desc id="d">Mapa editorial simplificado do Brasil com a Bahia destacada na costa leste.</desc>
 <defs>
   <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
     <rect width="18" height="18" fill="#ebe3d4"/>
     <path d="M0 5L18 2M0 14L18 11" stroke="#17130f" stroke-opacity=".035"/>
   </pattern>
-  <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
-    <line x1="0" y1="0" x2="0" y2="9" stroke="#17130f" stroke-width="1.4" opacity=".13"/>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#17130f" stroke-width="1.2" opacity=".10"/>
   </pattern>
 </defs>
-<rect width="820" height="760" fill="url(#paper)"/>
-<text x="54" y="60" font-family="Arial" font-size="18" font-weight="800" letter-spacing="4" fill="#963e27">ONDE ESTÁ A BAHIA</text>
 
-<path d="M315 90
-C365 75 430 88 470 123
-L525 112 580 142 607 190 665 225
-L680 286 651 327 666 369 629 405
-L618 467 570 498 545 550 504 575
-L480 634 434 669 392 647 366 601
-L335 575 307 517 278 477 255 423
-L225 388 212 336 180 298 191 246
-L220 214 231 164 270 139Z"
+<rect width="900" height="760" fill="url(#paper)"/>
+<text x="58" y="58" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="4" fill="#963e27">A BAHIA NO BRASIL</text>
+
+<!-- contorno simplificado do Brasil -->
+<path d="M274 86
+L350 74 L430 91 L493 121 L552 112 L611 139 L648 187
+L693 212 L729 254 L723 304 L690 333 L704 378 L674 411
+L668 461 L633 491 L615 538 L577 562 L553 611 L516 637
+L501 680 L460 711 L421 690 L398 653 L365 626 L346 580
+L318 545 L293 499 L267 465 L250 420 L221 388 L213 344
+L229 301 L222 268 L253 231 L263 185 L300 158 L309 119 Z"
 fill="url(#hatch)" stroke="#17130f" stroke-width="5" stroke-linejoin="round"/>
 
-<g fill="none" stroke="#17130f" stroke-width="2" opacity=".42">
-  <path d="M236 206L326 235L355 170L438 181L487 130"/>
-  <path d="M212 336L302 320L355 360L436 331L520 346L651 327"/>
-  <path d="M278 477L350 440L418 468L486 435L618 467"/>
-  <path d="M335 575L390 532L454 560L545 550"/>
-  <path d="M302 320L326 235L385 268L436 331"/>
-  <path d="M436 331L455 255L533 254L588 292L651 327"/>
-  <path d="M418 468L436 331L486 435"/>
-  <path d="M350 440L355 360L418 468"/>
+<!-- divisões estaduais apenas como referência visual -->
+<g fill="none" stroke="#17130f" stroke-width="1.7" opacity=".22">
+  <path d="M286 171L359 198L418 167L486 179L552 112"/>
+  <path d="M229 301L309 287L359 198L426 236L500 231L611 139"/>
+  <path d="M213 344L293 327L352 363L429 345L508 360L690 333"/>
+  <path d="M250 420L322 402L379 438L449 427L526 446L668 461"/>
+  <path d="M293 499L359 476L420 507L495 500L615 538"/>
+  <path d="M346 580L403 555L460 580L553 611"/>
+  <path d="M426 236L429 345L449 427L420 507"/>
+  <path d="M500 231L508 360L526 446L495 500"/>
 </g>
 
-<path d="M517 254L588 292L602 348L571 388L520 377L490 329Z"
-fill="#963e27" opacity=".92" stroke="#17130f" stroke-width="3"/>
-<g stroke="#f2eee4" stroke-width="1.6" opacity=".5">
-  <path d="M514 288L579 323"/>
-  <path d="M520 338L584 345"/>
-  <path d="M548 264L545 382"/>
+<!-- Bahia: deliberadamente encostada no litoral leste -->
+<path d="M500 231
+L548 244 L591 266 L628 296
+L638 330 L622 354 L628 382
+L606 409 L611 436 L576 458
+L532 446 L513 410 L486 377
+L491 341 L476 307 L486 270 Z"
+fill="#963e27" stroke="#17130f" stroke-width="3" stroke-linejoin="round"/>
+
+<g stroke="#f3ede0" stroke-width="1.4" opacity=".42">
+  <path d="M505 276L616 331"/>
+  <path d="M497 333L624 351"/>
+  <path d="M515 395L598 410"/>
 </g>
 
-<text x="620" y="300" font-family="Arial" font-size="18" font-weight="900" letter-spacing="2" fill="#963e27">BAHIA</text>
-<path d="M614 307L592 320" stroke="#963e27" stroke-width="3"/>
-<text x="55" y="704" font-family="Georgia" font-size="18" fill="#655d52">O olhar de Euclides chega à Bahia e, daí, começa a avançar para o interior.</text>
+<text x="665" y="310" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" letter-spacing="2" fill="#963e27">BAHIA</text>
+<path d="M655 315L632 326" stroke="#963e27" stroke-width="3"/>
+
+<text x="696" y="470" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#655d52">OCEANO</text>
+<text x="696" y="490" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#655d52">ATLÂNTICO</text>
+
+<text x="58" y="706" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#655d52">Aqui ainda não é o sertão: é apenas a Bahia destacada dentro do Brasil.</text>
 </svg>
