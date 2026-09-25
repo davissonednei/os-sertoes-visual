@@ -3,12 +3,330 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Os Sertões — edição visual interativa</title>
+  <meta name="theme-color" content="#f2eee4">
+  <meta name="description" content="Os Sertões — edição visual interativa. Leitura guiada de A Terra, Capítulo I: Preliminares.">
+  <title>Os Sertões — Preliminares</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Os Sertões</h1>
-    <p>Edição visual interativa — em construção.</p>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="topbar">
+    <a href="#inicio" class="brand">OS SERTÕES</a>
+    <div class="trail">A TERRA · CAPÍTULO I · <strong id="currentSection">PRELIMINARES</strong></div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <p class="eyebrow">A TERRA · CAPÍTULO I · PRELIMINARES</p>
+      <h1>Antes de Canudos,<br>é preciso aprender a ver o sertão.</h1>
+      <p class="hero-sub">Euclides começa pelas rochas, pelos rios e pelo relevo. A nossa função é tornar esse caminho visível sem tirar o texto do centro.</p>
+      <a href="#como-ler" class="scroll-link">começar ↓</a>
+    </section>
+
+    <section class="reading-note" id="como-ler">
+      <p class="project-label">GUIA DE LEITURA</p>
+      <h2>Duas vozes, duas formas.</h2>
+      <p>Quando <strong>Euclides</strong> fala, o texto aparece em fonte serifada, maior e sem caixa. Quando <strong>nós</strong> explicamos alguma coisa, entramos em fonte sem serifa, com rótulo e fundo discreto. A ideia é nunca deixar dúvida sobre quem está falando.</p>
+      <div class="voice-samples">
+        <div class="voice-sample euclides-sample">
+          <span>EUCLIDES</span>
+          <p>O texto do livro segue limpo, como leitura.</p>
+        </div>
+        <div class="voice-sample project-sample">
+          <span>GUIA DE LEITURA</span>
+          <p>Nossa voz entra para situar, simplificar ou explicar.</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="reading">
+
+      <section class="story-block" data-section="O BRASIL SE ABRE">
+        <header class="block-header">
+          <p class="block-number">01</p>
+          <h2>O Brasil se abre até a Bahia</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>O planalto central do Brasil desce, nos litorais do Sul, em escarpas inteiriças, altas e abruptas. Assoberba os mares; e desata-se em chapadões nivelados pelos visos das cordilheiras marítimas, distendidas do Rio Grande a Minas.</p>
+          <p>De sorte que quem o contorna, seguindo para o norte, observa notáveis mudanças de relevos [...] até que, em plena faixa costeira da Bahia, o olhar, livre dos anteparos de serras que até lá o repulsam e abreviam, se dilata em cheio para o ocidente, mergulhando no âmago da terra amplíssima lentamente emergindo num ondear longínquo de chapadas...</p>
+        </div>
+
+        <div class="visual-duo">
+          <figure class="source-figure locator">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Brazil_State_Bahia.svg" alt="Mapa do Brasil com a Bahia destacada">
+            <figcaption>
+              <strong>Onde estamos.</strong> A Bahia destacada no conjunto dos estados brasileiros.
+              <a href="https://commons.wikimedia.org/wiki/File:Brazil_State_Bahia.svg" target="_blank" rel="noopener">Fonte: Wikimedia Commons · CC BY 2.5 / CC BY-SA 3.0</a>
+            </figcaption>
+          </figure>
+
+          <figure class="authored-figure">
+            <img src="assets/relevo-perfil.svg" alt="Diagrama autoral mostrando a mudança do relevo do Sul até a Bahia">
+            <figcaption><strong>O que Euclides quer que a gente enxergue.</strong> Não é um perfil altimétrico real: é um esquema de leitura da transformação descrita no texto.</figcaption>
+          </figure>
+        </div>
+
+        <aside class="project-note">
+          <p class="project-label">GUIA DE LEITURA</p>
+          <p>A chave aqui não é decorar serras. É perceber o movimento: no Sul e no Sudeste o relevo costeiro aparece mais alto e recortado; conforme o olhar avança para o norte, Euclides descreve uma abertura progressiva para o interior. A Bahia vira a porta visual do sertão.</p>
+        </aside>
+      </section>
+
+      <section class="story-block" data-section="A OSSATURA DA TERRA">
+        <header class="block-header">
+          <p class="block-number">02</p>
+          <h2>A ossatura antiga da terra</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>Surgem primeiro as possantes massas gnaissegraníticas, que a partir do extremo sul se encurvam em desmedido anfiteatro, alteando as paisagens admiráveis...</p>
+        </div>
+
+        <aside class="project-note term-feature">
+          <p class="project-label">EM PORTUGUÊS DE HOJE</p>
+          <h3>“massas gnaissegraníticas”</h3>
+          <p>Leia como <strong>grandes corpos de rochas cristalinas antigas, dominados por gnaisses e granitos</strong>. O gnaisse é uma rocha metamórfica geralmente grossa e bandada; o granito é uma rocha ígnea cristalina. Euclides usa uma linguagem geológica do seu tempo para falar da base rígida e antiga do relevo.</p>
+          <div class="rock-pair">
+            <div><span class="rock rock-gneiss"></span><strong>Gnaisse</strong><small>bandas e orientação mineral</small></div>
+            <div><span class="rock rock-granite"></span><strong>Granito</strong><small>cristais com aspecto granular</small></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="story-block" data-section="MINAS: PEDRA E OURO">
+        <header class="block-header">
+          <p class="block-number">03</p>
+          <h2>Minas: pedra, ouro e altitude</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>...e jazem sotopostas a complexas séries de xistos metamórficos, infiltrados de veeiros fartos, nas paragens lendárias do ouro.</p>
+          <p>A região continua alpestre. O caráter das rochas, exposto nas abas dos cerros de quartzito, ou nas grimpas em que se empilham as placas do itacolomito avassalando as alturas, aviva todos os acidentes, desde os maciços que vão de Ouro Branco a Sabará, à zona diamantina expandindo-se para nordeste nas chapadas que se desenrolam nivelando-se às cimas da Serra do Espinhaço.</p>
+        </div>
+
+        <figure class="photo-figure">
+          <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Serra_do_Espinha%C3%A7o_%281516455210%29.jpg" alt="Paisagem rochosa da Serra do Espinhaço">
+          <figcaption>
+            <strong>Serra do Espinhaço.</strong> A fotografia ajuda a entender por que Euclides insiste no caráter “alpestre” e rochoso da paisagem.
+            <a href="https://commons.wikimedia.org/wiki/File:Serra_do_Espinha%C3%A7o_(1516455210).jpg" target="_blank" rel="noopener">Foto: Glauco Umbelino · Wikimedia Commons · CC BY 2.0</a>
+          </figcaption>
+        </figure>
+
+        <div class="glossary">
+          <p class="project-label">VOCABULÁRIO SEM TRAVA</p>
+          <details>
+            <summary>sotopostas</summary>
+            <p>Colocadas por baixo, cobertas por outras camadas.</p>
+          </details>
+          <details>
+            <summary>xistos metamórficos</summary>
+            <p>Rochas transformadas por pressão e temperatura, com foliação bem marcada — uma tendência a se organizar em planos.</p>
+          </details>
+          <details>
+            <summary>veeiros</summary>
+            <p>Termo antigo para veios ou faixas mineralizadas na rocha. No contexto, ajuda a ligar a geologia às “paragens do ouro”.</p>
+          </details>
+          <details>
+            <summary>quartzito</summary>
+            <p>Rocha metamórfica muito rica em quartzo, geralmente derivada de arenitos submetidos a pressão e temperatura.</p>
+          </details>
+          <details>
+            <summary>itacolomito</summary>
+            <p>Nome histórico associado a certos quartzitos micáceos, inclusive variedades flexíveis. A própria nomenclatura geológica mudou bastante desde Euclides.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="story-block" data-section="A ÁGUA ESCOLHE">
+        <header class="block-header">
+          <p class="block-number">04</p>
+          <h2>A água escolhe dois caminhos</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>Dali descem, acachoantes, para o levante, tombando em catadupas ou saltando travessões sucessivos, todos os rios que do Jequitinhonha ao Doce procuram os terraços inferiores do planalto [...] e volvem águas remansadas para o poente os que se destinam à bacia de captação do São Francisco...</p>
+          <p>...depois de percorridas ao sul as interessantes formações calcárias do Rio das Velhas, salpintadas de lagos, solapadas de sumidouros e ribeirões subterrâneos, onde se abrem as cavernas do homem pré-histórico de Lund...</p>
+        </div>
+
+        <figure class="authored-figure wide">
+          <img src="assets/drenagem-cavernas.svg" alt="Diagrama explicando rios que descem para leste e rios que alimentam o São Francisco, com corte de terreno calcário e caverna">
+          <figcaption><strong>Um divisor de águas.</strong> O diagrama simplifica o que o parágrafo faz em palavras: parte das águas corre para leste; parte converge para o sistema do São Francisco.</figcaption>
+        </figure>
+
+        <div class="visual-split">
+          <figure class="photo-figure compact">
+            <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Gruta_do_Maquin%C3%A9_%28204%29_%286141520742%29.jpg" alt="Interior da Gruta do Maquiné em Minas Gerais">
+            <figcaption>
+              <strong>Uma referência visual para o mundo subterrâneo de Lund.</strong> A Gruta do Maquiné foi pesquisada por Peter Wilhelm Lund. Ela funciona aqui como exemplo do ambiente calcário e cavernícola — não como identificação da caverna específica citada por Euclides.
+              <a href="https://commons.wikimedia.org/wiki/File:Gruta_do_Maquin%C3%A9_(204)_(6141520742).jpg" target="_blank" rel="noopener">Foto: Carlos Lopes · Wikimedia Commons · CC BY 2.0</a>
+            </figcaption>
+          </figure>
+
+          <aside class="project-note">
+            <p class="project-label">GUIA DE LEITURA</p>
+            <h3>Sumidouro?</h3>
+            <p>Em terrenos calcários, a água pode desaparecer por fraturas e cavidades, circular no subsolo e reaparecer adiante. É por isso que Euclides combina, no mesmo trecho, lagos, “sumidouros”, ribeirões subterrâneos e cavernas.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="story-block" data-section="GRÃO MOGOL">
+        <header class="block-header">
+          <p class="block-number">05</p>
+          <h2>Grão Mogol: quando uma chapada parece serra</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>A Serra do Grão Mogol, raiando as lindes da Bahia, é o primeiro espécime dessas esplêndidas chapadas imitando cordilheiras, que tanto perturbam aos geógrafos descuidados...</p>
+        </div>
+
+        <figure class="photo-figure">
+          <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Grao_Mogol.jpg" alt="Vista elevada de Grão Mogol, Minas Gerais">
+          <figcaption>
+            <strong>Grão Mogol, visto do alto.</strong> A fotografia ajuda a enxergar a ideia de superfícies elevadas e extensas que, de longe, podem ser lidas como serras.
+            <a href="https://commons.wikimedia.org/wiki/File:Grao_Mogol.jpg" target="_blank" rel="noopener">Foto: H. S. C. Costa · Wikimedia Commons · domínio público</a>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="story-block" data-section="CHAPADAS E EROSÃO">
+        <header class="block-header">
+          <p class="block-number">06</p>
+          <h2>Como um planalto vira cânion</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>...no alto, sobrepujando-as, ou circuitando-lhes os flancos em vales monoclínicos, os lençóis de grés, predominantes e oferecendo aos agentes meteóricos plasticidade admirável aos mais caprichosos modelos.</p>
+          <p>Caindo por ali há séculos as fortes enxurradas [...] foram pouco a pouco reprofundando-as, talhando-as em quebradas que se fizeram cânions, e se fizeram vales em declive, até orlarem de escarpamentos e despenhadeiros aqueles plainos soerguidos.</p>
+        </div>
+
+        <figure class="authored-figure wide">
+          <img src="assets/erosao-chapadas.svg" alt="Sequência didática mostrando chuva sulcando um planalto e formando vales e cânions">
+          <figcaption><strong>O processo em quatro passos.</strong> Superfície elevada → drenagem → aprofundamento dos sulcos → vales e escarpas.</figcaption>
+        </figure>
+
+        <div class="glossary">
+          <p class="project-label">VOCABULÁRIO SEM TRAVA</p>
+          <details>
+            <summary>grés</summary>
+            <p>Nome antigo muito usado para arenito: rocha sedimentar formada principalmente por grãos de areia consolidados.</p>
+          </details>
+          <details>
+            <summary>agentes meteóricos</summary>
+            <p>Chuva, variações de temperatura, vento e outros processos que desgastam e remodelam a rocha na superfície.</p>
+          </details>
+          <details>
+            <summary>vale monoclínico</summary>
+            <p>Forma de relevo ligada a camadas rochosas inclinadas predominantemente para um lado. Aqui basta guardar a ideia de camadas inclinadas moldando o terreno.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="story-block" data-section="BOM JESUS DA LAPA">
+        <header class="block-header">
+          <p class="block-number">07</p>
+          <h2>A abstração vira um lugar: Bom Jesus da Lapa</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>Adiante, a partir de Monte Alto, estas conformações naturais se bipartem: no rumo firme do norte a série do grés figura-se progredir até ao platô arenoso do Açuruá, associando-se ao calcário que aviva as paisagens na orla do grande rio, prendendo-as às linhas dos cerros, talhados em diáclase, tão bem expressos no perfil fantástico do Bom Jesus da Lapa...</p>
+        </div>
+
+        <figure class="photo-figure historic">
+          <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Morro_de_Bom_Jesus_da_Lapa_-_Augusto_Riedel.jpg" alt="Registro histórico do Morro de Bom Jesus da Lapa, de 1868">
+          <figcaption>
+            <strong>Morro de Bom Jesus da Lapa, 1868.</strong> Aqui vale trocar a reconstrução pela evidência: é possível olhar para o próprio perfil que dá corpo ao trecho de Euclides.
+            <a href="https://commons.wikimedia.org/wiki/File:Morro_de_Bom_Jesus_da_Lapa_-_Augusto_Riedel.jpg" target="_blank" rel="noopener">Wikimedia Commons · CC0</a>
+          </figcaption>
+        </figure>
+
+        <aside class="project-note">
+          <p class="project-label">EM PORTUGUÊS DE HOJE</p>
+          <h3>diáclase</h3>
+          <p>É uma fratura natural na rocha sem deslocamento importante entre os blocos. Pense em grandes “juntas” que recortam o maciço e ajudam a produzir paredes, fendas e formas abruptas.</p>
+        </aside>
+      </section>
+
+      <section class="story-block" data-section="MINAS CONTINUA NA BAHIA">
+        <header class="block-header">
+          <p class="block-number">08</p>
+          <h2>A Bahia como prolongamento de Minas</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>Reponta a região diamantina, na Bahia, revivendo inteiramente a de Minas, como um desdobramento ou antes um prolongamento, porque é a mesma formação mineira rasgando, afinal, os lençóis de grés, e alteando-se com os mesmos contornos alpestres e perturbados, nos alcantis que irradiam da Tromba ou avultam para o norte nos xistos huronianos das cadeias paralelas de Sincorá.</p>
+        </div>
+
+        <div class="visual-duo landscape-duo">
+          <figure class="authored-figure">
+            <img src="assets/minas-bahia.svg" alt="Diagrama conceitual ligando o relevo de Minas à região diamantina da Bahia">
+            <figcaption><strong>A ideia de continuidade.</strong> Euclides não trata a Bahia como um mundo separado: ele enxerga uma estrutura geológica que se prolonga de Minas para o norte.</figcaption>
+          </figure>
+
+          <figure class="photo-figure">
+            <img loading="lazy" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Chapada_Diamantina_Bahia.jpg/960px-Chapada_Diamantina_Bahia.jpg" alt="Cânions e chapadas na Chapada Diamantina, Bahia">
+            <figcaption>
+              <strong>Chapada Diamantina.</strong> Um registro atual ajuda a transformar “contornos alpestres e perturbados” em forma visível.
+              <a href="https://commons.wikimedia.org/wiki/File:Chapada_Diamantina_Bahia.jpg" target="_blank" rel="noopener">Foto: Cesar Vieira · Wikimedia Commons · CC BY-SA 4.0</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="story-block" data-section="O TERRENO SE QUEBRA">
+        <header class="block-header">
+          <p class="block-number">09</p>
+          <h2>O terreno se fragmenta — e o sertão se aproxima</h2>
+        </header>
+
+        <div class="euclides-block">
+          <p class="speaker">EUCLIDES</p>
+          <p>Deste ponto em diante, porém, o eixo da Serra Geral se fragmenta, indefinido. Desfaz-se.</p>
+          <p>Revela-os o São Francisco, no vivo infletir com que torce para o levante, indicando no mesmo passo a transformação geral da região.</p>
+          <p>Último rebento da serra principal, a da Itiúba reúne-lhe alguns galhos indecisos, fundindo as expansões setentrionais das da Furna, Cocais e Sincorá.</p>
+          <p>Alteia-se um momento, mas descai logo para todos os rumos: para o norte [...] para o sul, em segmentos dispersos que vão até além do Monte Santo; e para leste, passando sob as chapadas de Jeremoabo, até se desvendar no salto prodigioso de Paulo Afonso.</p>
+        </div>
+
+        <figure class="authored-figure wide">
+          <img src="assets/bahia-transicao.svg" alt="Esquema regional com São Francisco, Itiúba, Monte Santo, Jeremoabo e Paulo Afonso">
+          <figcaption><strong>Último ajuste de escala.</strong> Depois de começar no Brasil inteiro, Euclides finalmente estreita o campo até os nomes que vão dominar a próxima etapa da leitura.</figcaption>
+        </figure>
+
+        <aside class="project-note">
+          <p class="project-label">GUIA DE LEITURA</p>
+          <p>Este é o ponto de saída de <em>Preliminares</em>. O texto começou como geologia continental e terminou quase dentro do cenário de Canudos. A próxima seção já tem nome de passagem.</p>
+        </aside>
+      </section>
+
+      <section class="next-section">
+        <p class="eyebrow">A SEGUIR</p>
+        <h2>A entrada do sertão</h2>
+        <p>Agora o livro deixa de preparar o olhar e começa a demarcar o território que será atravessado.</p>
+      </section>
+
+      <section class="sources">
+        <p class="project-label">FONTES E CRÉDITOS</p>
+        <p><strong>Texto-base de trabalho:</strong> <em>Os Sertões</em>, Euclides da Cunha, edição Biblioteca Básica Brasileira disponibilizada no projeto. A grafia e a terminologia de Euclides foram preservadas nos trechos exibidos.</p>
+        <p><strong>Explicações geológicas:</strong> sínteses didáticas apoiadas no Serviço Geológico do Brasil (SGB/CPRM) e em referências geológicas modernas. Quando a nomenclatura de Euclides é histórica ou imprecisa segundo o uso atual, a página trata o termo como linguagem da época, não como classificação contemporânea.</p>
+        <p><strong>Imagens externas:</strong> Wikimedia Commons. Cada imagem mantém, na própria legenda, o link para o arquivo e sua licença.</p>
+      </section>
+    </article>
   </main>
+
+  <footer>
+    <p><em>Os Sertões — edição visual interativa.</em> Projeto em construção, trecho por trecho.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
