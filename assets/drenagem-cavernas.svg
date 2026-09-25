@@ -1,45 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="t d">
-<title id="t">Dois caminhos da água</title>
-<desc id="d">Diagrama simples mostrando um divisor de águas: de um lado para o São Francisco e do outro para o leste, com um segundo quadro sobre água subterrânea em terreno calcário.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="t d">
+<title id="t">A água escolhe dois caminhos</title>
+<desc id="d">Diagrama limpo mostrando um divisor de águas e, em um quadro separado, a água entrando no calcário e seguindo no subsolo.</desc>
 <defs>
   <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
     <rect width="18" height="18" fill="#ebe3d4"/>
     <path d="M0 5L18 2M0 14L18 11" stroke="#17130f" stroke-opacity=".035"/>
   </pattern>
 </defs>
-<rect width="1400" height="800" fill="url(#paper)"/>
-<text x="70" y="72" font-family="Arial" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">A ÁGUA ESCOLHE DOIS CAMINHOS</text>
+<rect width="1400" height="820" fill="url(#paper)"/>
+<text x="70" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" letter-spacing="4" fill="#963e27">A ÁGUA ESCOLHE DOIS CAMINHOS</text>
 
-<!-- quadro principal -->
-<g transform="translate(90,135)">
-  <path d="M40 275L185 170L325 230L470 85L610 200L735 120L875 230L1015 175L1195 265"
-        fill="none" stroke="#17130f" stroke-width="7" stroke-linejoin="round"/>
-  <circle cx="470" cy="85" r="9" fill="#963e27"/>
-  <text x="402" y="48" font-family="Arial" font-size="15" font-weight="800" letter-spacing="2">DIVISOR DE ÁGUAS</text>
+<g transform="translate(90,140)">
+  <path d="M40 255 L220 140 L390 220 L525 95 L670 210 L830 150 L995 225 L1190 150"
+        fill="none" stroke="#17130f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="525" cy="95" r="9" fill="#963e27"/>
+  <text x="452" y="55" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" letter-spacing="2">DIVISOR DE ÁGUAS</text>
 
-  <path d="M468 96C410 175 320 240 205 330C152 371 115 400 70 455"
-        fill="none" stroke="#31483c" stroke-width="9" stroke-linecap="round"/>
-  <path d="M70 455l17-34 19 27z" fill="#31483c"/>
-  <text x="38" y="505" font-family="Arial" font-size="18" font-weight="900" fill="#31483c">PARA O SÃO FRANCISCO</text>
+  <path d="M520 104 C470 185, 370 255, 245 340 C195 373, 150 402, 105 430"
+        fill="none" stroke="#31483c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M105 430 l24 -12 l-7 28 z" fill="#31483c"/>
+  <text x="35" y="485" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" fill="#31483c">PARA O SÃO FRANCISCO</text>
 
-  <path d="M480 96C560 166 675 228 820 280C955 329 1063 365 1165 430"
-        fill="none" stroke="#31483c" stroke-width="9" stroke-linecap="round"/>
-  <path d="M1165 430l-36-8 15-22z" fill="#31483c"/>
-  <text x="973" y="478" font-family="Arial" font-size="18" font-weight="900" fill="#31483c">PARA O LESTE</text>
+  <path d="M530 104 C615 180, 730 238, 870 292 C980 335, 1085 375, 1195 410"
+        fill="none" stroke="#31483c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1195 410 l-27 -3 l12 -22 z" fill="#31483c"/>
+  <text x="960" y="465" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" fill="#31483c">PARA O LESTE</text>
 </g>
 
-<!-- segundo quadro -->
-<g transform="translate(180,590)">
-  <rect x="0" y="0" width="1040" height="145" rx="2" fill="#ded2bf" stroke="#17130f" stroke-width="2"/>
-  <text x="25" y="32" font-family="Arial" font-size="15" font-weight="900" letter-spacing="2" fill="#963e27">NO CALCÁRIO, A ÁGUA TAMBÉM PODE SUMIR</text>
+<g transform="translate(170,575)">
+  <rect x="0" y="0" width="1060" height="160" rx="3" fill="#ddd1bf" stroke="#17130f" stroke-width="2"/>
+  <text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" letter-spacing="2" fill="#963e27">NO CALCÁRIO, A ÁGUA TAMBÉM PODE SUMIR</text>
 
-  <path d="M25 65H1015" stroke="#17130f" stroke-width="3"/>
-  <path d="M245 65C262 76 268 89 268 103" fill="none" stroke="#31483c" stroke-width="5"/>
-  <path d="M268 103C382 104 443 121 535 119C648 117 751 96 835 88" fill="none" stroke="#31483c" stroke-width="6"/>
-  <ellipse cx="555" cy="118" rx="82" ry="22" fill="#17130f"/>
-  <text x="520" y="123" font-family="Arial" font-size="12" fill="#f2eee4">CAVERNA</text>
+  <path d="M25 72 H1020" stroke="#17130f" stroke-width="3"/>
+  <path d="M252 72 C274 83, 287 96, 290 120" fill="none" stroke="#31483c" stroke-width="6" stroke-linecap="round"/>
+  <text x="190" y="142" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#655d52">sumidouro</text>
 
-  <text x="185" y="128" font-family="Arial" font-size="13" fill="#655d52">sumidouro</text>
-  <text x="805" y="125" font-family="Arial" font-size="13" fill="#655d52">água subterrânea</text>
+  <path d="M290 120 C400 124, 500 138, 545 138 C620 138, 735 112, 835 100" fill="none" stroke="#31483c" stroke-width="7"/>
+  <ellipse cx="555" cy="138" rx="82" ry="22" fill="#17130f"/>
+  <text x="520" y="143" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#f2eee4">CAVERNA</text>
+  <text x="810" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#655d52">água subterrânea</text>
 </g>
 </svg>
