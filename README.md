@@ -2,18 +2,33 @@
 
 Projeto de leitura visual de **Os Sertões**, de Euclides da Cunha.
 
-## Modelo editorial definido
+## Modelo editorial
 
 - o texto do livro é o eixo da experiência;
-- a leitura segue em fluxo simples, inspirada na lógica editorial de projetos como *Walkachusetts*;
-- nunca haverá texto sobreposto a imagem;
-- a voz de Euclides e a voz editorial do projeto serão visualmente diferentes;
-- xilogravura é parte da identidade, mas não é obrigação;
-- cada trecho recebe o recurso visual que melhor ajuda a entender o texto;
-- podemos combinar xilogravura, fotografia, mapa, documento histórico, diagrama, imagem de acervo e material autoral;
+- a leitura segue em fluxo simples;
+- nunca há texto sobreposto a imagem;
+- **Euclides** e **Guia de leitura** têm tipografia e tratamento visual diferentes;
+- xilogravura é identidade possível, não obrigação;
+- cada trecho recebe o recurso que melhor ajuda a entender: mapa, fotografia, documento, diagrama, acervo ou ilustração autoral;
 - clareza vem antes de ornamentação;
-- o projeto será construído trecho por trecho, sem antecipar uma estrutura rígida para o livro inteiro.
+- o projeto cresce trecho por trecho.
 
 ## Estado atual
 
-O piloto inicial foi removido. O projeto recomeça a partir deste modelo editorial, passo a passo.
+**A Terra → Capítulo I → Preliminares** está em curadoria e implementação.
+
+A página atual contém nove blocos:
+
+1. O Brasil se abre até a Bahia
+2. A ossatura antiga da terra
+3. Minas: pedra, ouro e altitude
+4. A água escolhe dois caminhos
+5. Grão Mogol
+6. Chapadas e erosão
+7. Bom Jesus da Lapa
+8. A Bahia como prolongamento de Minas
+9. O terreno se fragmenta — ponte para “A entrada do sertão”
+
+## Fontes visuais
+
+As imagens de acervo usadas nesta etapa vêm do Wikimedia Commons e permanecem acompanhadas de atribuição e licença na própria página. Diagramas SVG são autorais do projeto.
