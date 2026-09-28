@@ -13,7 +13,7 @@
 <text x="1050" y="635" font-family="Arial" font-size="18" font-weight="800" fill="#31483c">PARA O LESTE</text>
 <text x="520" y="192" font-family="Arial" font-size="15" letter-spacing="2">DIVISOR DE ÁGUAS</text>
 
-<g transform="translate(300,700)">
+<g transform="translate(300,680)">
   <path d="M0 0H800V110H0Z" fill="#d6c9b4" stroke="#17130f" stroke-width="2"/>
   <path d="M80 0C120 30 120 65 165 75C230 90 282 22 342 48C395 70 420 105 490 85C555 66 595 12 650 35C700 55 725 88 800 94V110H0V55C25 42 52 24 80 0Z" fill="#8e806d" opacity=".55"/>
   <path d="M142 18C173 31 184 44 185 67M342 8C359 27 367 42 367 63M650 8C646 25 646 41 657 58" fill="none" stroke="#17130f" stroke-width="3"/>
