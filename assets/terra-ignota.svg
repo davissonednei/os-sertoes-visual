@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" role="img" aria-labelledby="t d">
+  <title id="t">Terra ignota</title>
+  <desc id="d">Esquema editorial dos limites do povoamento descritos por Euclides da Cunha, com o interior pouco conhecido nos mapas da época cercado por povoados, pelo Itapicuru e pelo São Francisco.</desc>
+
+  <defs>
+    <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#eee5d4"/>
+      <path d="M0 7 L20 4 M0 16 L20 13" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
+    </pattern>
+    <pattern id="unknown" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#8f806b" stroke-opacity=".10" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1448" height="1086" fill="url(#paper)"/>
+  <rect x="16" y="16" width="1416" height="1054" fill="none" stroke="#9b907e" stroke-width="1"/>
+
+  <text x="724" y="118" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="62" font-weight="500" letter-spacing="12"
+        fill="#9a4528">TERRA IGNOTA</text>
+  <text x="724" y="165" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="20" letter-spacing="4"
+        fill="#2a2b29">O POVOAMENTO CONTORNA O VAZIO</text>
+
+  <!-- São Francisco, limite ao norte e a leste -->
+  <path d="M120 305 C330 260 525 250 690 268 C862 287 1038 320 1325 343"
+        fill="none" stroke="#31483c" stroke-width="13"
+        stroke-linecap="round"/>
+  <text x="480" y="242"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24" letter-spacing="5"
+        fill="#31483c"
+        stroke="#eee5d4" stroke-width="8" paint-order="stroke">SÃO FRANCISCO</text>
+
+  <!-- Itapicuru, limite ao sul -->
+  <path d="M98 856 C295 825 480 834 660 848 C854 863 1057 839 1352 790"
+        fill="none" stroke="#a14e2b" stroke-width="8"
+        stroke-linecap="round"/>
+  <text x="857" y="900"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="23" font-weight="600" letter-spacing="4"
+        fill="#a14e2b"
+        stroke="#eee5d4" stroke-width="8" paint-order="stroke">ITAPICURU</text>
+
+  <!-- miolo deliberadamente vazio: não é fronteira exata -->
+  <path d="M492 392
+           C615 345 789 355 917 395
+           C1015 426 1071 499 1042 588
+           C1017 665 913 706 800 708
+           C681 710 558 685 493 617
+           C426 547 425 439 492 392 Z"
+        fill="url(#unknown)"
+        stroke="#9b907e"
+        stroke-width="2"
+        stroke-dasharray="8 12"/>
+
+  <text x="760" y="520" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="42" font-style="italic"
+        letter-spacing="5" fill="#5d554a">terra ignota</text>
+  <text x="760" y="559" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15" letter-spacing="3"
+        fill="#8a7b67">“UM CLARO EXPRESSIVO” NOS MAPAS DA ÉPOCA</text>
+
+  <!-- pontos do norte -->
+  <g font-family="Georgia, serif" fill="#17130f">
+    <circle cx="285" cy="283" r="8" fill="#17130f"/>
+    <text x="285" y="334" text-anchor="middle" font-size="21" font-weight="700">Capim Grosso</text>
+
+    <circle cx="1168" cy="326" r="8" fill="#17130f"/>
+    <text x="1168" y="377" text-anchor="middle" font-size="21" font-weight="700">Santo Antônio da Glória</text>
+  </g>
+
+  <!-- sudoeste -->
+  <g font-family="Georgia, serif" fill="#17130f">
+    <path d="M315 703 L344 665 L371 704 L401 659 L432 705"
+          fill="none" stroke="#655d52" stroke-width="4" stroke-linejoin="round"/>
+    <text x="374" y="739" text-anchor="middle" font-size="18" fill="#655d52">Itiúba</text>
+
+    <circle cx="470" cy="589" r="8" fill="#9a4528"/>
+    <text x="440" y="576" text-anchor="end" font-size="21" font-weight="700">Uauá</text>
+  </g>
+
+  <!-- sul: os povoados onde a penetração estaca -->
+  <g font-family="Georgia, serif" fill="#17130f">
+    <circle cx="572" cy="744" r="8" fill="#9a4528"/>
+    <text x="572" y="718" text-anchor="middle" font-size="21" font-weight="700">Monte Santo</text>
+
+    <circle cx="790" cy="797" r="8" fill="#9a4528"/>
+    <text x="790" y="771" text-anchor="middle" font-size="21" font-weight="700">Cumbe</text>
+
+    <circle cx="930" cy="780" r="8" fill="#9a4528"/>
+    <text x="930" y="754" text-anchor="middle" font-size="21" font-weight="700">Maçacará</text>
+
+    <circle cx="1130" cy="734" r="8" fill="#9a4528"/>
+    <text x="1130" y="708" text-anchor="middle" font-size="21" font-weight="700">Bom Conselho</text>
+  </g>
+
+  <!-- leste: ponto mais avançado -->
+  <g font-family="Georgia, serif" fill="#17130f">
+    <circle cx="1115" cy="520" r="8" fill="#9a4528"/>
+    <line x1="1123" y1="517" x2="1150" y2="500" stroke="#655d52" stroke-width="2"/>
+    <text x="1160" y="499" font-size="21" font-weight="700">Jeremoabo</text>
+  </g>
+
+  <!-- movimento: chega às bordas, mas não ocupa o miolo -->
+  <g fill="none" stroke="#655d52" stroke-width="3" stroke-linecap="round" opacity=".58">
+    <path d="M1090 965 C1080 908 1088 852 1119 775"/>
+    <path d="M690 966 C670 902 665 843 697 789"/>
+    <path d="M1305 610 C1240 595 1193 568 1154 535"/>
+  </g>
+  <g fill="#655d52" opacity=".58">
+    <path d="M1111 782 L1122 771 L1124 787 Z"/>
+    <path d="M690 797 L698 784 L703 799 Z"/>
+    <path d="M1160 529 L1148 535 L1157 543 Z"/>
+  </g>
+
+  <text x="135" y="994"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" letter-spacing="2"
+        fill="#8a7b67">ESQUEMA DE POSIÇÕES RELATIVAS · NÃO REPRESENTA UM LIMITE POLÍTICO</text>
+</svg>
