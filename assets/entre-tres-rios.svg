@@ -1,134 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" role="img" aria-labelledby="t d">
   <title id="t">Entre três rios</title>
-  <desc id="d">Mapa-esquema minimalista com São Francisco, Vaza-Barris, Itapicuru-açu, Paulo Afonso, Jeremoabo e o degrau do planalto.</desc>
+  <desc id="d">Mapa-esquema do nordeste da Bahia, com São Francisco, Vaza-Barris e Itapicuru-açu dispostos segundo referências cartográficas, além de Paulo Afonso, Jeremoabo e o degrau do planalto.</desc>
 
   <defs>
     <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
       <rect width="20" height="20" fill="#eee5d4"/>
       <path d="M0 7 L20 4 M0 16 L20 13" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
     </pattern>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="10"/>
-    </filter>
   </defs>
 
   <rect width="1448" height="1086" fill="url(#paper)"/>
   <rect x="16" y="16" width="1416" height="1054" fill="none" stroke="#9b907e" stroke-width="1"/>
 
-  <text x="724" y="122"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="62"
-        font-weight="500"
-        letter-spacing="12"
-        fill="#9a4528">ENTRE TRÊS RIOS</text>
+  <text x="724" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="62" font-weight="500" letter-spacing="12" fill="#9a4528">ENTRE TRÊS RIOS</text>
+  <text x="724" y="170" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="21" letter-spacing="4" fill="#2a2b29">SÃO FRANCISCO · VAZA-BARRIS · ITAPICURU-AÇU</text>
 
-  <text x="724" y="170"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="21"
-        letter-spacing="4"
-        fill="#2a2b29">SÃO FRANCISCO · VAZA-BARRIS · ITAPICURU-AÇU</text>
+  <!-- Degrau do planalto: referência de relevo, sem pretensão de limite cartográfico -->
+  <path d="M88 530 C320 500 515 495 700 510 C890 525 1080 506 1364 475"
+        fill="none" stroke="#c9baa3" stroke-width="58" stroke-linecap="round" opacity=".16"/>
+  <text x="170" y="493" font-family="Georgia, serif" font-size="18" letter-spacing="7"
+        fill="#8a7b67" opacity=".72">DEGRAU DO PLANALTO</text>
 
-  <!-- faixa discreta do degrau -->
-  <path d="M0 418
-           C150 382 262 410 370 392
-           C506 369 591 331 709 352
-           C840 375 930 430 1064 398
-           C1183 370 1311 318 1448 329
-           L1448 505
-           C1292 483 1173 521 1040 548
-           C892 577 762 546 624 560
-           C482 575 346 618 214 592
-           C130 576 73 542 0 537 Z"
-        fill="#d8cbb5"
-        opacity=".36"/>
+  <!-- São Francisco: arco ao norte; curva baseada na disposição cartográfica regional -->
+  <path id="sf" d="M 90.0 403.1
+    C 116.4 395.8, 210.8 373.4, 248.5 359.2
+    C 286.2 345.0, 274.9 331.1, 316.4 317.7
+    C 357.9 304.3, 438.7 290.1, 497.6 278.7
+    C 556.5 267.3, 628.2 250.2, 669.7 249.4
+    C 711.2 248.6, 721.0 267.7, 746.6 273.8
+    C 772.2 279.9, 793.4 277.1, 823.6 286.0
+    C 853.8 294.9, 895.3 315.3, 927.8 327.5
+    C 960.3 339.7, 995.8 346.6, 1018.4 359.2
+    C 1041.0 371.8, 1052.8 392.3, 1063.6 403.1
+    C 1074.3 413.9, 1079.7 420.6, 1082.9 424.1
+    C 1135 442, 1200 455, 1272 474
+    C 1310 490, 1340 535, 1360 568"
+    fill="none" stroke="#31483c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="5" fill="#31483c">
+    <textPath href="#sf" startOffset="27%" dy="-18">SÃO FRANCISCO</textPath>
+  </text>
 
-  <text x="270" y="496"
-        font-family="Georgia, serif"
-        font-size="18"
-        letter-spacing="7"
-        fill="#8a7b67"
-        opacity=".7">DEGRAU DO PLANALTO</text>
+  <!-- Paulo Afonso: no São Francisco -->
+  <circle cx="1083" cy="424" r="8" fill="#17130f"/>
+  <text x="1104" y="458" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#17130f">Paulo Afonso</text>
 
-  <!-- São Francisco -->
-  <path d="M0 279
-           C122 262 147 345 263 350
-           C378 356 400 308 514 318
-           C626 327 673 266 751 257
-           C825 249 854 295 899 306
-           C971 324 1002 356 1074 339
-           C1157 320 1156 277 1231 277
-           C1320 278 1359 234 1448 222"
-        fill="none"
-        stroke="#31483c"
-        stroke-width="14"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
+  <!-- Vaza-Barris: faixa intermediária, de oeste para leste/sudeste -->
+  <path id="vb" d="M 474.9 498.2
+    C 506.1 505.4, 623.2 534.7, 661.9 541.3
+    C 700.5 547.9, 673.8 534.4, 706.8 537.8
+    C 739.8 541.2, 808.8 553.1, 859.9 561.6
+    C 911.0 570.1, 984.0 583.8, 1013.4 588.8
+    C 1042.8 593.8, 1015.5 571.8, 1036.2 591.3
+    C 1057.0 610.8, 1108.3 691.6, 1137.9 705.8
+    C 1167.5 720.0, 1180.8 669.3, 1213.7 676.6
+    C 1246.6 683.9, 1315.1 737.4, 1360 764"
+    fill="none" stroke="#a14e2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" letter-spacing="4" fill="#a14e2b">
+    <textPath href="#vb" startOffset="18%" dy="-16">VAZA-BARRIS</textPath>
+  </text>
 
-  <text x="407" y="315"
-        transform="rotate(-9 407 315)"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="27"
-        letter-spacing="5"
-        fill="#31483c">SÃO FRANCISCO</text>
+  <!-- Jeremoabo: junto à calha do Vaza-Barris -->
+  <circle cx="1019" cy="585" r="8" fill="#a14e2b"/>
+  <text x="1040" y="624" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#17130f">Jeremoabo</text>
 
-  <!-- Paulo Afonso -->
-  <circle cx="853" cy="281" r="8" fill="#17130f"/>
-  <text x="870" y="276"
-        font-family="Georgia, serif"
-        font-size="22"
-        fill="#17130f">Paulo Afonso</text>
-
-  <!-- Vaza-Barris -->
-  <path d="M889 332
-           C909 353 888 372 900 391
-           C914 414 890 430 888 453
-           C883 487 846 496 829 521
-           C806 555 792 582 739 596
-           C699 607 686 634 692 667
-           C697 701 660 713 630 729
-           C589 750 576 787 566 821
-           C551 871 502 888 474 920
-           C445 954 425 1000 405 1026"
-        fill="none"
-        stroke="#a14e2b"
-        stroke-width="6"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
-
-  <text x="494" y="684"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="23"
-        font-weight="600"
-        letter-spacing="4"
-        fill="#a14e2b">VAZA-BARRIS</text>
-
-  <!-- Jeremoabo -->
-  <circle cx="742" cy="661" r="8" fill="#a14e2b"/>
-  <text x="760" y="666"
-        font-family="Georgia, serif"
-        font-size="22"
-        fill="#17130f">Jeremoabo</text>
-
-  <!-- Itapicuru-açu -->
-  <path d="M1000 338
-           C1048 351 1075 376 1087 416
-           C1100 460 1101 497 1124 527
-           C1150 560 1172 592 1155 629
-           C1138 666 1113 696 1120 734
-           C1128 779 1177 790 1185 827
-           C1193 866 1216 895 1245 922
-           C1273 949 1281 997 1284 1086"
-        fill="none"
-        stroke="#31483c"
-        stroke-width="8"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
-
-  <text x="1137" y="758"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="24"
-        letter-spacing="4"
-        fill="#31483c">ITAPICURU-AÇU</text>
+  <!-- Itapicuru-açu: ao sul, correndo para leste e sudeste -->
+  <path id="itp" d="M 88 760
+    C 145 742, 257 770, 389.8 798.5
+    C 497.7 823.2, 743.1 810.0, 835.6 816.0
+    C 928.1 822.0, 907.1 822.0, 944.7 834.2
+    C 982.3 846.4, 1015.1 865.0, 1061.2 889.0
+    C 1107.3 913.0, 1174.2 958.8, 1221.3 978.5
+    C 1268.4 998.2, 1323.4 1002.7, 1360 1014"
+    fill="none" stroke="#31483c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="4" fill="#31483c">
+    <textPath href="#itp" startOffset="50%" dy="-18">ITAPICURU-AÇU</textPath>
+  </text>
 </svg>
