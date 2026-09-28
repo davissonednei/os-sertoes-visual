@@ -1,106 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 820" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" role="img" aria-labelledby="t d">
   <title id="t">Entre três rios</title>
-  <desc id="d">Esquema editorial mostrando o sertão enquadrado pelo São Francisco, pelo Itapicuru-açu e pelo Vaza-Barris, com indicação do degrau do planalto e da drenagem caótica.</desc>
+  <desc id="d">Mapa-esquema minimalista com São Francisco, Vaza-Barris, Itapicuru-açu, Paulo Afonso, Jeremoabo e o degrau do planalto.</desc>
 
   <defs>
-    <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
-      <rect width="18" height="18" fill="#ebe3d4"/>
-      <path d="M0 5L18 2M0 14L18 11" stroke="#17130f" stroke-opacity=".035"/>
+    <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#eee5d4"/>
+      <path d="M0 7 L20 4 M0 16 L20 13" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
     </pattern>
-    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
-      <line x1="0" y1="0" x2="0" y2="10" stroke="#17130f" stroke-width="1" opacity=".07"/>
-    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
   </defs>
 
-  <rect width="1300" height="820" fill="url(#paper)"/>
-  <rect x="20" y="20" width="1260" height="780" fill="none" stroke="#b8ad99" stroke-width="1"/>
+  <rect width="1448" height="1086" fill="url(#paper)"/>
+  <rect x="16" y="16" width="1416" height="1054" fill="none" stroke="#9b907e" stroke-width="1"/>
 
-  <text x="70" y="78" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="4" fill="#963e27">ENTRE TRÊS RIOS</text>
-  <text x="70" y="106" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.4" fill="#655d52">SÃO FRANCISCO · ITAPICURU-AÇU · VAZA-BARRIS</text>
+  <text x="724" y="122"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="62"
+        font-weight="500"
+        letter-spacing="12"
+        fill="#9a4528">ENTRE TRÊS RIOS</text>
 
-  <g transform="translate(95 150)">
-    <path d="M180 75
-             C270 35 390 30 490 58
-             C610 91 705 160 795 160
-             C875 159 930 118 985 140
-             C1030 158 1068 212 1054 265
-             C1037 329 999 383 951 428
-             C899 478 820 518 730 541
-             C603 573 492 563 389 520
-             C285 475 207 401 176 321
-             C150 253 141 169 180 75 Z"
-          fill="url(#hatch)" stroke="#17130f" stroke-width="4" stroke-linejoin="round"/>
+  <text x="724" y="170"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="21"
+        letter-spacing="4"
+        fill="#2a2b29">SÃO FRANCISCO · VAZA-BARRIS · ITAPICURU-AÇU</text>
 
-    <path d="M224 118
-             C345 86 470 86 601 121
-             C692 145 782 179 874 190
-             C941 198 1005 191 1052 171
-             L1052 241
-             C996 259 933 264 857 253
-             C763 240 676 204 592 184
-             C463 153 344 154 243 182 Z"
-          fill="#d7ccba" opacity=".75"/>
+  <!-- faixa discreta do degrau -->
+  <path d="M0 418
+           C150 382 262 410 370 392
+           C506 369 591 331 709 352
+           C840 375 930 430 1064 398
+           C1183 370 1311 318 1448 329
+           L1448 505
+           C1292 483 1173 521 1040 548
+           C892 577 762 546 624 560
+           C482 575 346 618 214 592
+           C130 576 73 542 0 537 Z"
+        fill="#d8cbb5"
+        opacity=".36"/>
 
-    <text x="450" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" letter-spacing="1.7" fill="#17130f">DEGRAU DO PLANALTO</text>
+  <text x="270" y="496"
+        font-family="Georgia, serif"
+        font-size="18"
+        letter-spacing="7"
+        fill="#8a7b67"
+        opacity=".7">DEGRAU DO PLANALTO</text>
 
-    <path d="M164 115
-             C243 50 361 18 500 18
-             C635 18 760 48 870 87
-             C955 117 1016 133 1090 132"
-          fill="none" stroke="#31483c" stroke-width="9" stroke-linecap="round"/>
+  <!-- São Francisco -->
+  <path d="M0 279
+           C122 262 147 345 263 350
+           C378 356 400 308 514 318
+           C626 327 673 266 751 257
+           C825 249 854 295 899 306
+           C971 324 1002 356 1074 339
+           C1157 320 1156 277 1231 277
+           C1320 278 1359 234 1448 222"
+        fill="none"
+        stroke="#31483c"
+        stroke-width="14"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
 
-    <text x="112" y="88" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#31483c">RIO SÃO FRANCISCO</text>
+  <text x="407" y="315"
+        transform="rotate(-9 407 315)"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="27"
+        letter-spacing="5"
+        fill="#31483c">SÃO FRANCISCO</text>
 
-    <path d="M1030 176
-             C1065 216 1078 269 1065 321
-             C1047 393 993 468 929 535"
-          fill="none" stroke="#31483c" stroke-width="8" stroke-linecap="round"/>
+  <!-- Paulo Afonso -->
+  <circle cx="853" cy="281" r="8" fill="#17130f"/>
+  <text x="870" y="276"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#17130f">Paulo Afonso</text>
 
-    <text x="930" y="585" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#31483c">ITAPICURU-AÇU</text>
+  <!-- Vaza-Barris -->
+  <path d="M889 332
+           C909 353 888 372 900 391
+           C914 414 890 430 888 453
+           C883 487 846 496 829 521
+           C806 555 792 582 739 596
+           C699 607 686 634 692 667
+           C697 701 660 713 630 729
+           C589 750 576 787 566 821
+           C551 871 502 888 474 920
+           C445 954 425 1000 405 1026"
+        fill="none"
+        stroke="#a14e2b"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
 
-    <path d="M418 178
-             C498 182 586 194 668 220
-             C744 245 801 274 854 310
-             C914 352 962 402 1001 452"
-          fill="none" stroke="#963e27" stroke-width="8" stroke-linecap="round"/>
+  <text x="494" y="684"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="23"
+        font-weight="600"
+        letter-spacing="4"
+        fill="#a14e2b">VAZA-BARRIS</text>
 
-    <text x="560" y="254" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#963e27">VAZA-BARRIS</text>
+  <!-- Jeremoabo -->
+  <circle cx="742" cy="661" r="8" fill="#a14e2b"/>
+  <text x="760" y="666"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#17130f">Jeremoabo</text>
 
-    <circle cx="705" cy="236" r="7" fill="#17130f"/>
-    <text x="720" y="242" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#17130f">Jeremoabo</text>
+  <!-- Itapicuru-açu -->
+  <path d="M1000 338
+           C1048 351 1075 376 1087 416
+           C1100 460 1101 497 1124 527
+           C1150 560 1172 592 1155 629
+           C1138 666 1113 696 1120 734
+           C1128 779 1177 790 1185 827
+           C1193 866 1216 895 1245 922
+           C1273 949 1281 997 1284 1086"
+        fill="none"
+        stroke="#31483c"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
 
-    <circle cx="956" cy="135" r="7" fill="#17130f"/>
-    <text x="972" y="141" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#17130f">Paulo Afonso</text>
-
-    <g stroke="#655d52" stroke-width="2.4" fill="none" opacity=".7">
-      <path d="M365 130 L365 180"/>
-      <path d="M515 140 L515 205"/>
-      <path d="M670 155 L670 225"/>
-      <path d="M822 165 L822 240"/>
-    </g>
-    <g fill="#655d52" opacity=".7">
-      <path d="M359 180 L365 190 L371 180 Z"/>
-      <path d="M509 205 L515 215 L521 205 Z"/>
-      <path d="M664 225 L670 235 L676 225 Z"/>
-      <path d="M816 240 L822 250 L828 240 Z"/>
-    </g>
-
-    <text x="295" y="248" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.3" fill="#655d52">rampas esbarrancadas</text>
-
-    <g transform="translate(85 430)">
-      <rect x="0" y="0" width="425" height="120" rx="3" fill="#ddd1bf" stroke="#17130f" stroke-width="2"/>
-      <text x="20" y="28" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" letter-spacing="1.6" fill="#963e27">FANTASIA DE CARTÓGRAFO</text>
-      <text x="20" y="54" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">Euclides sugere que o Vaza-Barris,</text>
-      <text x="20" y="74" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">de Jeremoabo para as cabeceiras,</text>
-      <text x="20" y="94" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">era mal desenhado ou mal conhecido nos mapas.</text>
-    </g>
-
-    <g transform="translate(615 440)">
-      <rect x="0" y="0" width="355" height="110" rx="3" fill="#ddd1bf" stroke="#17130f" stroke-width="2"/>
-      <text x="20" y="28" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" letter-spacing="1.6" fill="#963e27">DRENAGEM CAÓTICA</text>
-      <text x="20" y="54" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">Num relevo em degrau, a água não se distribui</text>
-      <text x="20" y="74" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">em equilíbrio. Ela desce em torrentes, abrindo</text>
-      <text x="20" y="94" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4e4942">vales, cortes e percursos irregulares.</text>
-    </g>
-  </g>
+  <text x="1137" y="758"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24"
+        letter-spacing="4"
+        fill="#31483c">ITAPICURU-AÇU</text>
 </svg>
