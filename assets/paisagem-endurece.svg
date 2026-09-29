@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 900" role="img" aria-labelledby="t d">
+  <title id="t">A paisagem endurece</title>
+  <desc id="d">Painel editorial em quatro vinhetas mostrando lajedos, aridez crescente, agreste com arbustos e cactos e o horizonte pardo da caatinga.</desc>
+
+  <defs>
+    <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#eee5d4"/>
+      <path d="M0 7 L20 4 M0 16 L20 13" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1448" height="900" fill="url(#paper)"/>
+  <rect x="16" y="16" width="1416" height="868" fill="none" stroke="#9b907e" stroke-width="1"/>
+
+  <text x="724" y="110" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="56" font-weight="500" letter-spacing="11"
+        fill="#9a4528">A PAISAGEM ENDURECE</text>
+
+  <text x="724" y="154" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19" letter-spacing="4"
+        fill="#2a2b29">O SERTÃO VAI SE REVELANDO AOS POUCOS</text>
+
+  <!-- QUADRO 1 -->
+  <g transform="translate(82 235)">
+    <rect width="300" height="470" rx="3" fill="#e8decc" stroke="#b3a58f"/>
+    <text x="22" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2.2" fill="#9a4528">01 · LAJEDOS</text>
+
+    <path d="M20 315 C78 298 130 300 188 310 C232 318 265 315 280 307"
+          fill="none" stroke="#b59b75" stroke-width="7" stroke-linecap="round"/>
+    <path d="M35 340 C98 325 165 330 252 325"
+          fill="none" stroke="#b59b75" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+
+    <path d="M38 275 L118 265 L157 276 L235 263 L275 277 L257 303 L179 308 L129 300 L58 308 Z"
+          fill="#8f877c" stroke="#5c554c" stroke-width="3"/>
+    <path d="M85 275 L98 298 M150 275 L160 305 M225 270 L214 301"
+          stroke="#625a50" stroke-width="2"/>
+
+    <text x="22" y="384" font-family="Georgia, serif" font-size="21" fill="#17130f">A pedra aflora.</text>
+    <text x="22" y="414" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">A fina capa de areia se rompe</text>
+    <text x="22" y="437" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">e o chão fica mais raso.</text>
+  </g>
+
+  <!-- QUADRO 2 -->
+  <g transform="translate(410 235)">
+    <rect width="300" height="470" rx="3" fill="#e8decc" stroke="#b3a58f"/>
+    <text x="22" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2.2" fill="#9a4528">02 · A ARIDEZ CRESCE</text>
+
+    <path d="M20 316 C88 295 163 304 280 292"
+          fill="none" stroke="#b79c73" stroke-width="5" stroke-linecap="round"/>
+    <g fill="none" stroke="#667154" stroke-width="4" stroke-linecap="round">
+      <path d="M58 290 l-8 -34 M58 280 l-20 -12 M58 273 l16 -18"/>
+      <path d="M115 300 l-4 -28 M115 290 l-17 -12 M115 286 l15 -17"/>
+      <path d="M190 297 l2 -23 M190 290 l-14 -10 M190 285 l14 -14"/>
+    </g>
+    <g fill="#8e6f47">
+      <circle cx="247" cy="296" r="4"/>
+      <circle cx="266" cy="291" r="3"/>
+    </g>
+
+    <path d="M35 338 C100 327 160 329 267 318"
+          fill="none" stroke="#c2aa84" stroke-width="3" opacity=".8"/>
+
+    <text x="22" y="384" font-family="Georgia, serif" font-size="21" fill="#17130f">A secura avança.</text>
+    <text x="22" y="414" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">A vegetação rareia e o terreno</text>
+    <text x="22" y="437" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">vai ficando cada vez mais áspero.</text>
+  </g>
+
+  <!-- QUADRO 3 -->
+  <g transform="translate(738 235)">
+    <rect width="300" height="470" rx="3" fill="#e8decc" stroke="#b3a58f"/>
+    <text x="22" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2.2" fill="#9a4528">03 · PLENO AGRESTE</text>
+
+    <path d="M25 325 C100 310 183 318 278 304"
+          fill="none" stroke="#b7986b" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- arbustos retorcidos -->
+    <g fill="none" stroke="#5e604b" stroke-width="4" stroke-linecap="round">
+      <path d="M70 312 C62 284 65 260 50 238 M64 280 L43 264 M66 274 L82 252"/>
+      <path d="M127 316 C121 292 123 270 111 248 M122 287 L104 274 M123 281 L139 262"/>
+      <path d="M225 310 C221 285 225 268 215 250 M222 286 L207 273 M223 280 L239 259"/>
+    </g>
+
+    <!-- cereus -->
+    <g fill="none" stroke="#5c7759" stroke-width="8" stroke-linecap="round">
+      <path d="M178 306 L178 206 M178 244 L160 230 M160 230 L160 213 M178 264 L196 248 M196 248 L196 229"/>
+    </g>
+
+    <text x="22" y="384" font-family="Georgia, serif" font-size="21" fill="#17130f">O agreste aparece.</text>
+    <text x="22" y="414" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">Arbustos baixos, galhos enredados</text>
+    <text x="22" y="437" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">e cactos rígidos isolados.</text>
+  </g>
+
+  <!-- QUADRO 4 -->
+  <g transform="translate(1066 235)">
+    <rect width="300" height="470" rx="3" fill="#e8decc" stroke="#b3a58f"/>
+    <text x="22" y="38" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2.2" fill="#9a4528">04 · HORIZONTE PARDO</text>
+
+    <path d="M20 250 C67 226 108 232 151 246 C196 260 232 250 280 225 L280 330 L20 330 Z"
+          fill="#b69b76" opacity=".38"/>
+    <path d="M20 282 C78 266 116 278 165 286 C214 294 242 280 280 264"
+          fill="none" stroke="#87745e" stroke-width="3"/>
+    <path d="M20 325 L280 325"
+          stroke="#655d52" stroke-width="3"/>
+
+    <g fill="#6e6b54">
+      <path d="M65 315 l7 -23 l7 23 z"/>
+      <path d="M105 317 l8 -28 l8 28 z"/>
+      <path d="M205 316 l7 -25 l7 25 z"/>
+      <path d="M246 315 l7 -22 l7 22 z"/>
+    </g>
+
+    <text x="22" y="384" font-family="Georgia, serif" font-size="21" fill="#17130f">O sertão se revela.</text>
+    <text x="22" y="414" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">O horizonte perde variedade</text>
+    <text x="22" y="437" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#655d52">e ganha o pardo requeimado da caatinga.</text>
+  </g>
+
+  <text x="724" y="790" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="24" font-style="italic"
+        fill="#5d554a">“o fácies daquele sertão inóspito vai-se esboçando, lenta e impressionadoramente...”</text>
+</svg>
