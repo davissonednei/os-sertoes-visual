@@ -50,7 +50,7 @@
     <path d="M20 316 C88 295 163 304 280 292"
           fill="none" stroke="#b79c73" stroke-width="5" stroke-linecap="round"/>
     <g fill="none" stroke="#667154" stroke-width="4" stroke-linecap="round">
-      <path d="M58 290 l-8 -34 M58 280 l-20 -12 M58 273 l16 -18"/>
+      <path d="M58 304 l-8 -34 M58 294 l-20 -12 M58 287 l16 -18"/>
       <path d="M115 300 l-4 -28 M115 290 l-17 -12 M115 286 l15 -17"/>
       <path d="M190 297 l2 -23 M190 290 l-14 -10 M190 285 l14 -14"/>
     </g>
