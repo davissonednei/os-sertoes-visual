@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 900" role="img" aria-labelledby="t d">
+  <title id="t">A sensação de não sair do lugar</title>
+  <desc id="d">Painel horizontal mostrando a repetição das pequenas ondulações do terreno e, ao fim, a exceção fértil de Cansanção.</desc>
+
+  <defs>
+    <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#eee5d4"/>
+      <path d="M0 7 L20 4 M0 16 L20 13" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#9a4528"/>
+    </marker>
+  </defs>
+
+  <rect width="1448" height="900" fill="url(#paper)"/>
+  <rect x="16" y="16" width="1416" height="868" fill="none" stroke="#9b907e" stroke-width="1"/>
+
+  <text x="724" y="108" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54" font-weight="500" letter-spacing="10"
+        fill="#9a4528">A SENSAÇÃO DE NÃO SAIR DO LUGAR</text>
+
+  <text x="724" y="152" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19" letter-spacing="4"
+        fill="#2a2b29">O VIAJANTE AVANÇA, MAS O HORIZONTE PARECE O MESMO</text>
+
+  <rect x="84" y="220" width="1280" height="460" rx="3" fill="#e8decc" stroke="#b3a58f"/>
+
+  <path d="M120 525 L1325 525"
+        fill="none" stroke="#b8a282" stroke-width="3" stroke-dasharray="5 10"/>
+
+  <g transform="translate(130 500)">
+    <circle cx="0" cy="0" r="7" fill="#17130f"/>
+    <line x1="0" y1="7" x2="0" y2="28" stroke="#17130f" stroke-width="3"/>
+    <line x1="0" y1="14" x2="-10" y2="24" stroke="#17130f" stroke-width="3"/>
+    <line x1="0" y1="14" x2="10" y2="24" stroke="#17130f" stroke-width="3"/>
+    <line x1="0" y1="28" x2="-8" y2="42" stroke="#17130f" stroke-width="3"/>
+    <line x1="0" y1="28" x2="8" y2="42" stroke="#17130f" stroke-width="3"/>
+  </g>
+
+  <path d="M165 505 C220 492 270 488 335 490"
+        fill="none" stroke="#9a4528" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="170" y="470"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" letter-spacing="2"
+        fill="#8a7b67">O VIAJANTE SEGUE CÉLERE</text>
+
+  <g fill="none" stroke="#8c775f" stroke-width="5" stroke-linecap="round">
+    <path d="M175 490 C215 450 255 450 295 490 C335 530 375 530 415 490"/>
+    <path d="M355 490 C395 450 435 450 475 490 C515 530 555 530 595 490"/>
+    <path d="M535 490 C575 450 615 450 655 490 C695 530 735 530 775 490"/>
+    <path d="M715 490 C755 450 795 450 835 490 C875 530 915 530 955 490"/>
+    <path d="M895 490 C935 450 975 450 1015 490 C1055 530 1095 530 1135 490"/>
+    <path d="M1075 490 C1115 450 1155 450 1195 490 C1235 530 1275 530 1315 490"/>
+  </g>
+
+  <g fill="none" stroke="#b59b75" stroke-width="3" opacity=".7" stroke-linecap="round">
+    <path d="M155 438 C210 410 262 410 320 438 C378 466 430 466 488 438"/>
+    <path d="M370 438 C425 410 477 410 535 438 C593 466 645 466 703 438"/>
+    <path d="M585 438 C640 410 692 410 750 438 C808 466 860 466 918 438"/>
+    <path d="M800 438 C855 410 907 410 965 438 C1023 466 1075 466 1133 438"/>
+    <path d="M1015 438 C1070 410 1122 410 1180 438 C1238 466 1290 466 1348 438"/>
+  </g>
+
+  <text x="724" y="332" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="23" font-style="italic"
+        fill="#5d554a">as mesmas ondulações, o mesmo horizonte</text>
+
+  <text x="724" y="615" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15" letter-spacing="3"
+        fill="#8a7b67">A PAISAGEM SE REPETE E O HORIZONTE PARECE RECUAR</text>
+
+  <g>
+    <path d="M1178 520
+             C1208 470 1255 455 1308 468
+             C1345 477 1360 505 1360 540
+             L1360 615
+             L1165 615
+             L1165 548
+             C1165 539 1169 529 1178 520 Z"
+          fill="#7c9465" opacity=".88" stroke="#5f7750" stroke-width="3"/>
+
+    <g fill="#5b6a4f">
+      <circle cx="1210" cy="510" r="14"/>
+      <circle cx="1230" cy="502" r="12"/>
+      <circle cx="1254" cy="510" r="15"/>
+      <circle cx="1282" cy="501" r="13"/>
+      <circle cx="1305" cy="510" r="15"/>
+      <circle cx="1330" cy="503" r="12"/>
+    </g>
+
+    <text x="1262" y="662" text-anchor="middle"
+          font-family="Georgia, serif"
+          font-size="24" font-weight="700"
+          fill="#17130f">Cansanção</text>
+
+    <text x="1262" y="688" text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="13" letter-spacing="2"
+          fill="#8a7b67">RARA EMERSÃO DE TERRENO FÉRTIL</text>
+  </g>
+
+  <text x="724" y="790" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="24" font-style="italic"
+        fill="#5d554a">“o viajante mais rápido tem a sensação da imobilidade”</text>
+</svg>
