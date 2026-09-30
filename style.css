@@ -234,6 +234,19 @@ figcaption a{
 .authored-figure img{background:#ebe3d4}
 .visual-split .project-note{align-self:center}
 
+
+.comparison-bridge{
+  width:min(var(--reading),calc(100% - 2rem));
+  margin:-1rem auto 3rem;
+  padding:1rem 0 0;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1rem;
+  line-height:1.65
+}
+.comparison-bridge strong{color:var(--ink)}
+
 .glossary{
   padding-top:1.2rem;padding-bottom:1.2rem;
   border-left-color:var(--green)
