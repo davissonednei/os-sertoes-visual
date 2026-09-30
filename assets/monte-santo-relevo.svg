@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t d">
+  <title id="t">Perfil da Serra de Monte Santo</title>
+  <desc id="d">Esquema minimalista mostrando somente o relevo da serra descrita por Euclides, sem cidade, capelas, caminhos ou outras construções.</desc>
+
+  <defs>
+    <pattern id="paper" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#eee5d4"/>
+      <path d="M0 6 L18 3 M0 15 L18 12" stroke="#17130f" stroke-opacity=".025" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gneiss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d8477"/>
+      <stop offset="1" stop-color="#6d665d"/>
+    </linearGradient>
+    <linearGradient id="quartzite" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8d8d2"/>
+      <stop offset=".5" stop-color="#b9c3c7"/>
+      <stop offset="1" stop-color="#e1ddd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="520" fill="url(#paper)"/>
+  <rect x="12" y="12" width="696" height="496" fill="none" stroke="#9b907e" stroke-width="1"/>
+
+  <text x="360" y="66" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28" font-weight="500" letter-spacing="5"
+        fill="#9a4528">A SERRA SE LEVANTA</text>
+
+  <text x="360" y="98" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12" letter-spacing="2.2"
+        fill="#655d52">SÓ O RELEVO — NADA ALÉM DO QUE O TEXTO REVELA</text>
+
+  <!-- base gnáissica -->
+  <path d="M55 404
+           C145 387 222 390 300 402
+           C373 413 455 410 535 397
+           C594 387 643 388 670 394
+           L670 448 L55 448 Z"
+        fill="url(#gneiss)" opacity=".92"/>
+
+  <!-- maciço / perfil da serra -->
+  <path d="M116 405
+           C173 381 207 349 242 304
+           C276 260 307 203 344 158
+           C371 126 397 119 421 143
+           C452 174 468 224 497 267
+           C528 313 562 355 622 395
+           L622 405 Z"
+        fill="#7b746a"
+        stroke="#4f4a43"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+  <!-- dique de quartzito -->
+  <path d="M339 163
+           C362 135 388 123 411 143
+           C432 163 444 195 453 225
+           C431 214 414 206 397 194
+           C377 179 360 169 339 163 Z"
+        fill="url(#quartzite)"
+        stroke="#75848a"
+        stroke-width="2.5"/>
+
+  <!-- estrias geológicas discretas -->
+  <g fill="none" stroke="#5a544c" stroke-width="2" opacity=".55">
+    <path d="M182 365 C228 338 255 303 281 260"/>
+    <path d="M228 382 C274 349 301 314 323 274"/>
+    <path d="M468 260 C492 304 519 341 556 369"/>
+  </g>
+
+  <g fill="none" stroke="#d8e0e1" stroke-width="2" opacity=".85">
+    <path d="M353 161 C376 152 394 151 417 165"/>
+    <path d="M367 177 C390 168 410 171 432 186"/>
+    <path d="M382 193 C402 189 421 195 441 208"/>
+  </g>
+
+  <!-- labels -->
+  <line x1="431" y1="181" x2="560" y2="145" stroke="#8a7b67" stroke-width="1.5"/>
+  <text x="568" y="142"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13" font-weight="700" letter-spacing="1.4"
+        fill="#6b777b">QUARTZITO</text>
+  <text x="568" y="160"
+        font-family="Georgia, serif"
+        font-size="13" font-style="italic"
+        fill="#8a7b67">“branco, de azulados tons”</text>
+
+  <line x1="470" y1="405" x2="570" y2="430" stroke="#8a7b67" stroke-width="1.5"/>
+  <text x="578" y="434"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13" font-weight="700" letter-spacing="1.4"
+        fill="#5f5952">BASE GNÁISSICA</text>
+
+  <text x="360" y="484" text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="17" font-style="italic"
+        fill="#5d554a">“empina-se, a pique, na frente”</text>
+</svg>
