@@ -230,6 +230,21 @@ figcaption a{
 .photo-figure img{max-height:680px;object-fit:cover}
 .photo-figure.historic img{object-fit:contain;background:#dfd2b8}
 .photo-figure.compact img{max-height:500px}
+.photo-crop-frame{
+  height:420px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  background:#e6dece
+}
+.photo-crop-frame img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 18%;
+  border:0
+}
+.monte-santo-crop figcaption{margin-top:.65rem}
+
 .authored-figure.wide{width:min(var(--wide),calc(100% - 2rem))}
 .authored-figure img{background:#ebe3d4}
 .visual-split .project-note{align-self:center}
